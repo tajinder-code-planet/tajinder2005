@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .box {
+            /* background-color: aqua; */
+            height: 80px;
+            display: flex;
+            /* justify-content: flex-start; */
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        /* .leftlogo { */
+        /* background-color: black; */
+
+        /* align-content: center; */
+        /* justify-self: flex-start; */
+        /* } */
+
+        img {
+            height: 61px;
+        }
+
+        /* .contentlist{ */
+        /* display: flex; */
+        /* background-color: rgb(94, 90, 90); */
+        /* justify-self: right; */
+        /* } */
+
+        .olexo {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            height: min-content;
+            list-style: none;
+            /* align-self: right; */
+            gap: 51px;
+            align-items: center;
+            font-size: 13px;
+        }
+
+        .aa {
+            width: 25px;
+            height: auto;
+        }
+
+        .mainbox {
+            /* background-color: white; */
+            text-align: center;
+            padding-top: 47px;
+        }
+
+        .download {
+            background-color: rgba(93, 202, 216, 0.925);
+            /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            padding: 15px 20px 15px 20px;
+
+            border-radius: 6px;
+            color: white;
+        }
+
+        .first_discription {
+            font-size: 24px;
+            padding-bottom: 27px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .o1 {
+            height: 36px;
+
+        }
+
+        .oo2 {
+            padding-bottom: 6px;
+            font-size: 50px;
+            /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .language {
+            margin-top: 100px;
+            display: grid;
+            /* grid-template-areas: "a b c" 
+                                    "d e f" 
+                                    "g h i"
+                                    "j k l"
+                                    "m"; */
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 20px;
+            column-gap: 20px;
+            margin: 195px;
+
+
+        }
+
+
+
+        .lang_box {
+            background-color: rgb(224, 224, 224);
+            height: auto;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+
+
+        .lan {
+            background-color: rgba(5, 107, 22, 0.411);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .a5 {
+
+            padding-top: 15px;
+            /* margin-bottom: 10px; */
+            padding-bottom: 10px;
+        }
+
+        .afor {
+            margin-bottom: 10px;
+        }
+
+        .cat {
+            padding-top: 16px;
+        }
+
+        .afora {
+            position: absolute;
+            top: 480px;
+            left: 198px;
+            /* text-align: center; */
+
+
+        }
+
+        body {
+            /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif,Arial, Helvetica, sans-serif; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .footer-mainbox {
+            /* background-color: black; */
+            background-color: rgb(0, 0, 0);
+            height: 800px;
+            margin-top: 0px;
+        }
+
+        .white {
+            background-color: white;
+            height: 608px;
+        }
+
+        footer {
+            margin-top: 5px;
+        }
+
+        .textt {
+            color: white;
+            /* background-color: blue; */
+            height: 100px;
+            width: 500px;
+            /* margin-left: -127px; */
+            text-align: center;
+            padding-top: 10px;
+            align-items: center;
+            position: relative;
+            top: 99px;
+        }
+
+        .abula {
+            position: relative;
+            top: 68px;
+
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .boxeore {
+            border-radius: 10px;
+            text-align: center;
+            background-color: rgb(253, 253, 253);
+            height: 270px;
+            width: 348px;
+            margin-left: -357px;
+            /* margin-right: -127px; */
+        }
+
+        /* .oheo{ */
+
+        /* background-color: bisque; */
+        /* } */
+        h2 {
+            margin-top: 35px;
+            margin-bottom: 34px;
+        }
+
+        .exopo {
+            height: 38px;
+            width: 90%;
+        }
+
+        .oriento {
+            margin-top: 10px;
+            height: 50px;
+            width: 90%;
+            background-color: rgb(31, 226, 240);
+            border-radius: 10px;
+            border: none;
+            box-shadow: inset;
+        }
+
+        .elementtext {
+            color: white;
+            text-align: left;
+            height: max-content;
+            width: 80%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+
+            margin-top: 212px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .centring {
+            display: flex;
+            justify-content: center;
+            /* text-align: center; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .uplist {
+            position: relative;
+            top: 59px;
+            background-color: white;
+            display: grid;
+            justify-items: center;
+            /* padding: 0%; */
+            padding-left: 0px;
+
+            /* align-items: center; */
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .w1 {
+            font-family: Arial, Helvetica, sans-serif;
+            list-style-type: none;
+        }
+
+        .white1 {
+
+            /* display: flex; */
+            /* flex-direction: column; */
+            background-color: white;
+
+        }
+
+        .oeoe {
+            list-style: none;
+        }
+
+        .white2 {
+            background-color: white;
+
+        }
+
+        .ioio {
+            list-style: none;
+        }
+
+        .white3 {
+            background-color: white;
+        }
+
+        .stext {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .stext1 {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .gma {
+            border-color: gray;
+            border-radius: 10px;
+            text-align: center;
+            height: 35px;
+            width: 80%;
+            margin-top: 7px;
+            margin-bottom: 0px;
+        }
+
+        .sub {
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: aqua;
+            height: 35px;
+            width: 80%;
+
+            margin-bottom: 0px;
+        }
+
+
+        .white4 {
+
+            padding-top: 16px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .downlist {
+            justify-content: space-around;
+            margin-top: 100px;
+            display: flex;
+            background-color: white;
+        }
+
+        .logio {
+
+            background-color: white;
+        }
+
+        .icons {
+
+            list-style: inside none;
+            /* list-style-image: url(logo.PNG); */
+            display: flex;
+            /* flex-direction: row; */
+
+        }
+
+        .icons :first-child {
+            list-style-image: url(l1.PNG);
+        }
+
+        .icons :nth-child(2) {
+            list-style-image: url(l2.PNG);
+        }
+
+        .icons :nth-child(3) {
+            list-style-image: url(l3.PNG);
+        }
+
+        .icons :nth-child(4) {
+            list-style-image: url(l4.PNG);
+        }
+
+        .icons :nth-child(5) {
+            list-style-image: url(l5.PNG);
+        }
+
+        .icons :nth-child(6) {
+            list-style-image: url(l6.PNG);
+        }
+
+        .icons :nth-child(7) {
+            list-style-image: url(l7.PNG);
+        }
+
+        .endingtag {
+            margin-top: 10px;
+        }
+
+        .oi {
+            height: 8px;
+        }
+        .aorale{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <div class="leftlogo">
+                <img src="Capture.PNG" alt="">
+            </div>
+            <div class="contentlist">
+                <ul class="olexo">
+                    <li>
+                        products <img class="oi" src="arroe.PNG" alt="">
+                    </li>
+                    <li>
+                        pricing <img class="oi" src="arroe.PNG" alt="">
+                    </li>
+                    <li>
+                        resources <img class="oi" src="arroe.PNG" alt="">
+                    </li>
+                    <li>
+                        About us <img class="oi" src="arroe.PNG" alt="">
+                    </li>
+                    <li>
+                        security and complience <img class="oi" src="arroe.PNG" alt="">
+                    </li>
+                    <li>
+                        <img class="aa" src="english.PNG" alt="">
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </header>
+    <div class="mainbox">
+        <div>
+            <h1 class="oo2">
+                Download <b>UltraEdit</b> for windows <img class="o1" src="download.PNG" alt="">
+            </h1>
+            <p class="first_discription">Download and try UltraEdit before you buy it! This download includes the full
+                Windows<br>
+                version of the text editor.</p>
+            <a class="aorale"
+                href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/?utm_source=CWH&utm_medium=LeadsAcquisition&utm_content=UEDownload&utm_campaign=UETrialDownload#">
+                <span class="download">
+                    <b> DOWNLOAD MAC OR LINUX VERSION</b></a>
+            </span>
+            </a>
+        </div>
+        <div class="afora">
+            <h3> <img src="logo.PNG" alt=""> <big>Download UltraEdit</big> <small> v 2024
+                    (released 2024-04-19) | Hotfix</small>
+            </h3>
+        </div>
+        <div class="language">
+            <!-- <div class="head set"> <a> <img src="logo.PNG" alt=""> <big>Download UltraEdit</big> <small> v 2024
+                        (released 2024-04-19) | Hotfix</small>          </a></div>  -->
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2
+                </div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box ">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+            <div class="lang_box">
+                <div class="a5">
+                    <b>English</b>
+                    <div class="cat"><small>English</small></div>
+                </div> <br>
+                <span class="lan"><b>Download 64-bit</b></span>
+                <div style="font-size: 7px;" class="afor"><br><br>
+                    SHA256 <br>
+                    AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5 <br>
+                    C08EB2</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-mainbox">
+            <div class="abula">
+                <div class="textt">
+
+                    <b>Join the UltraEdit newsletter</b><br>
+                    Sign up for our newsletter and receive emails for the latest <br>news, blogs, and special deals on
+                    UltraEdit.
+
+
+                </div>
+                <div class="boxeore">
+                    <h2>
+                        Subscribe to our emails
+                    </h2>
+                    <div class="oheo">
+                        <form>
+                            <label for="ex">
+
+                                Enter email address
+
+                            </label> <br>
+                            <input class="exopo" id="ex" type="email"><br>
+                            <button class="oriento">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="centring">
+                <div class="elementtext">
+                    <B>EXE or MSI? </B><br>
+                    <small>
+                        The EXE builds of our products are the preferred download for most of our users, running Windows
+                        8.1 and later.
+
+                        We make MSI builds available for bulk or silent deployments (command line, GPO, SCCM, etc.). Get
+                        the UltraEdit MSI installer.
+                    </small>
+                    <br> <b>Free trial period </b><br>
+                    <small>
+                        This application comes with a free, fully functional 30 day trial period. After the trial period
+                        expires, you must purchase a license to continue using it.
+                    </small>
+                </div>
+            </div>
+        </div>
+        <div class="white">
+
+            <div class="uplist">
+                <div class="white1">
+                    <ul class="w1">
+                        <b>
+                            <li>What’s your language?</li>
+                        </b><br>
+                        <li>Code editor (General)</li>
+                        <li>Text editor</li>
+                        <li>Hex/Binary</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Unix shell scripts</li>
+                        <li>PL/SQL</li>
+                        <li>EDI</li>
+                        <li>C++</li>
+                        <li>PHP</li>
+                        <li>XML</li>
+                        <li>Markdown</li>
+                        <li>SAS</li>
+                        <li>Visual Basic (VB)</li>
+                    </ul>
+                </div>
+                <div class="white2">
+                    <ul class="oeoe">
+                        <li><b>What type of user are you?</b></li> <br>
+                        <li>Programmer / Developer</li>
+                        <li>Web Developer</li>
+                        <li>Database Manager</li>
+                        <li>System Administrator</li>
+                        <li>Technical Writer</li>
+                        <li>Editor / Publisher</li>
+                        <li>Medical / Pharmaceutical</li>
+                    </ul>
+                </div>
+                <div class="white3">
+                    <ul class="ioio">
+                        <li><b>General
+                                Contact </b></li> <br>
+                        <li>License Agreement (EULA)</li>
+                        <li>End of Life Policy</li>
+                        <li>Libraries and Patents</li>
+                        <li>Information Policy</li>
+                        <li>Privacy Policy</li>
+                        <li>Uninstall Instructions</li>
+                        <li>Sitemap</li>
+                        <li>Legal</li>
+                        <li>Software Security</li>
+                    </ul>
+                </div>
+                <div class="white4">
+                    <b>Subscribe to Newsletter</b> </a> <br> <br>
+                    <a class="stext1"> Get the latest news on new <br> releases, event, and developments.</a><br>
+                    <input class="gma" type="gmail" placeholder="enter your gmail here"><br>
+                    <button class="sub"><b>Subscribe</b></button>
+                </div>
+            </div>
+            <div class="downlist">
+                <div class="logio">
+                    <img src="Capture.PNG" alt=""><br><BR>
+                    <small class="endingtag">©2024 UltraEdit. All rights reserved</small>
+                </div>
+                <div>
+
+                    <ul class="icons">
+                        <li> </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
